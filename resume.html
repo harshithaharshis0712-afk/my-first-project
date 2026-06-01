@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Harshitha</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--white);
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+            text-transform: capitalize;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            color: var(--secondary-color);
+            font-size: 0.9em;
+        }
+
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: var(--secondary-color);
+        }
+
+        .item-sub {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 5px;
+            text-transform: capitalize;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .skills-list, .hobbies-list, .languages-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list li, .hobbies-list li, .languages-list li {
+            background-color: var(--bg-color);
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            color: var(--secondary-color);
+            border: 1px solid #ddd;
+            text-transform: capitalize;
+        }
+
+        @media (max-width: 600px) {
+            .item-header {
+                flex-direction: column;
+            }
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <header>
+        <h1>Harshitha</h1>
+        <div class="contact-info">
+            <span><strong>Age:</strong> 22</span>
+            <span><strong>Phone:</strong> 8050372109</span>
+            <span><strong>Email:</strong> harshithaharshis0712@gmail.com</span>
+            <span><strong>Address:</strong> Tumkur, Devanoor Church</span>
+        </div>
+    </header>
+
+    <section>
+        <h2>Career Objective</h2>
+        <p>Seeking a challenging role as a Software Engineer to utilize my technical skills, contribute to innovative projects, and continuously grow in a dynamic professional environment.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Bachelor of Computer Applications (BCA)</span>
+                <span>Expected Graduation: 2026</span>
+            </div>
+            <div class="item-sub">Government First Grade Women's College</div>
+            <p><strong>CGPA:</strong> 7.0</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>MS Office</li>
+            <li>Programming</li>
+            <li>Communication</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Online Voting System</span>
+            </div>
+            <ul>
+                <li>Developed a secure online voting system designed to make the voting process accessible, convenient, and useful for people.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Intern / Professional Experience</span>
+            </div>
+            <div class="item-sub">Aikshetra</div>
+            <ul>
+                <li>Contributed to ongoing projects and gained hands-on experience in a professional work environment.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Languages Known</h2>
+        <ul class="languages-list">
+            <li>English</li>
+            <li>Tamil</li>
+            <li>Kannada</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Hobbies & Interests</h2>
+        <ul class="hobbies-list">
+            <li>Dance</li>
+            <li>Cooking</li>
+            <li>Listening to Music</li>
+        </ul>
+    </section>
+
+</div>
+
+</body>
+</html>
